@@ -1,1 +1,9 @@
-# Simplefolio ⚡️ [![GitHub](https://img.shields.io/github/license/cobidev/simplefolio?color=blue)](https://github.com/cobidev/simplefolio/blob/master/LICENSE.md) ![GitHub stars](https://img.shields.io/github/stars/cobidev/simplefolio) ![GitHub forks](https://img.shields.io/github/forks/cobidev/simplefolio)
+# Simplefolio ⚡️
+
+This is my portfolio.
+Demo: [chankakit1996.github.io/simplefolio/](https://chankakit1996.github.io/simplefolio/ "https://chankakit1996.github.io/simplefolio/")
+This portfolio project is cloned from [Jacobo Martinez](https://github.com/cobiwave/simplefolio)
+
+## Status
+
+![gh-pages deployment](https://github.com/chankakit1996/simplefolio/actions/workflows/pages/pages-build-deployment/badge.svg)
