@@ -1,1 +1,235 @@
-<!DOCTYPE html><html lang="en" class="sr"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon shortcut" type="image/png" href="favicon.887424ff.png"><title>Ken Chan | Developer</title><meta name="keywords" content="kenchan, javascript, vue, vuejs, html, css, web, developer, software"><meta name="description" content="Ken Chan | Developer"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="index.88ae5040.css"><script defer src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script></head><body> <div id="top"></div>  <section id="hero" class="jumbotron"> <div class="container"> <h1 class="hero-title load-hidden"> Hi, my name is <span class="text-color-main">Ken Chan</span> <br> I'm a full stack web developer </h1> <p class="hero-cta load-hidden"> <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">Know more</a> </p> </div> </section>   <section id="about"> <div class="container"> <h2 class="load-hidden section-title">About me</h2> <div class="about-wrapper row"> <div class="col-md-6 col-sm-12"> <div class="about-wrapper__image load-hidden"> <img alt="Profile Image" class="img-fluid rounded shadow-lg" height="auto" width="300px" src="profile.fb7614d1.png"> </div> </div> <div class="col-md-6 col-sm-12"> <div class="about-wrapper__info load-hidden"> <p class="about-wrapper__info-text"> I'm a full stack web developer from Hong Kong! I develop website using vue.js and php. I also develop hybrid mobile application using Ionic Vue as well. </p> <p class="about-wrapper__info-text"> I love challenging myself. Currently I'm learning NodeJS, Express.js and MongoDB. </p> <span class="d-flex mt-3"> <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="assets/ken_resume.pdf"> View Resume </a> </span> </div> </div> </div> </div> </section>   <section id="projects"> <div class="container"> <div class="project-wrapper"> <h2 class="dark-blue-text section-title">Projects</h2>  <div class="row"> <div class="col-lg-4 col-sm-12"> <div class="load-hidden project-wrapper__text"> <h3 class="project-wrapper__text-title">Count Down Timer</h3> <div> <p class="mb-4"> This is a simple count down timer program that count down to 2022 Christmas Day build with vue.js. The program will count and display how many seconds, minutes, hours and days left. </p> </div> <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://chankakit1996.github.io/count-down-timer/"> See Live </a> <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="https://github.com/chankakit1996/count-down-timer"> Source Code </a> </div> </div> <div class="col-lg-8 col-sm-12"> <div class="load-hidden project-wrapper__image"> <a rel="noreferrer" href="#!" target="_blank"> <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="js-tilt rounded thumbnail"> <img alt="Project Image" class="img-fluid" src="project1.c704d84d.png"> </div> </a> </div> </div> </div>   <div class="row"> <div class="col-lg-4 col-sm-12"> <div class="load-hidden project-wrapper__text"> <h3 class="project-wrapper__text-title">User Authentication</h3> <div> <p class="mb-4"> This is a user authentication full stack program consist of registration, login, reset password, logout and logout all account. Frontend side I use vue.js and vuex while Backend side I use NodeJS, Express.js and MongoDB. After you login, you, as a admin, will see all registered member information in the website and also in the chrome console. </p> </div> <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://ken-user-authentication.herokuapp.com/"> See Live </a> <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="https://github.com/chankakit1996/user-authentication"> Source Code </a> </div> </div> <div class="col-lg-8 col-sm-12"> <div class="load-hidden project-wrapper__image"> <a rel="noreferrer" href="#!" target="_blank"> <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="js-tilt rounded thumbnail"> <img alt="Project Image" class="img-fluid" src="project2.db3c45c3.png"> </div> </a> </div> </div> </div>  </div> </div> </section>   <section id="contact"> <div class="container"> <h2 class="section-title">Contact</h2> <div class="contact-wrapper load-hidden"> <p class="contact-wrapper__text">Feel free to email me at chankakit1996@yahoo.com.hk</p> <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="mailto:chankakit1996@yahoo.com.hk">Email to Action</a> </div> </div> </section>   <footer class="footer navbar-static-bottom"> <div class="container"> <a rel="noreferrer" href="#top" class="back-to-top"> <i class="fa fa-2x fa-angle-up" aria-hidden="true"></i> </a> <div class="social-links"> <a rel="noreferrer" href="https://www.linkedin.com/in/ka-kit-chan/" target="_blank"> <i class="fa fa-inverse fa-linkedin"></i> </a> <a rel="noreferrer" href="https://github.com/chankakit1996" target="_blank"> <i class="fa fa-github fa-inverse"></i> </a> <a rel="noreferrer" href="mailto:chankakit1996@yahoo.com.hk" target="_blank"> <i class="fa fa-envelope fa-inverse"></i> </a> </div> <hr>   <p class="footer__text"> © <span id="footer-credit-year"></span> - Template developed by <a rel="noreferrer" href="https://github.com/cobidev" target="_blank">Jacobo Martínez</a> </p> </div> </footer>  <script defer type="module" src="index.da39cc8a.js"></script> </body></html>
+<!--
+  Hello!
+  -
+  Simplefolio is a clean and responsive portfolio template for Developers!
+  Created by Jacobo Martinez.
+  -
+  Github Repo: https://github.com/cobidev/simplefolio/
+  Readme: https://github.com/cobidev/simplefolio/README.md
+  -
+  For business & inquires, contact me -> jacobojavier98@gmail.com
+-->
+<!DOCTYPE html>
+<html lang="en" class="sr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="/favicon.12ba245e.png">
+
+    <title>Ken Chan | Developer</title>
+    <meta name="keywords" content="kenchan, javascript, vue, vuejs, html, css, web, developer, software">
+    <meta name="description" content="Ken Chan | Developer">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/index.de7da63a.css">
+    <script defer="" src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  </head>
+
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <section id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title load-hidden">
+          Hi, my name is <span class="text-color-main">Ken Chan</span>
+          <br>
+          I'm a full stack web developer
+        </h1>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">Know more</a>
+        </p>
+      </div>
+    </section>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">About me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img alt="Profile Image" class="img-fluid rounded shadow-lg" height="auto" width="300px" src="/profile.7011d8df.png">
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text">
+                I'm a full stack web developer from Hong Kong! I develop website
+                using vue.js and php. I also develop hybrid mobile application
+                using Ionic Vue as well.
+              </p>
+              <p class="about-wrapper__info-text">
+                I love challenging myself. Currently I'm learning NodeJS,
+                Express.js and MongoDB.
+              </p>
+              <span class="d-flex mt-3">
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="/assets/ken_resume.pdf">
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Count Down Timer</h3>
+                <div>
+                  <p class="mb-4">
+                    This is a simple count down timer program that count down to
+                    2022 Christmas Day build with vue.js. The program will count
+                    and display how many seconds, minutes, hours and days left.
+                  </p>
+                </div>
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://chankakit1996.github.io/count-down-timer/">
+                  See Live
+                </a>
+                <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="https://github.com/chankakit1996/count-down-timer">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
+                    <img alt="Project Image" class="img-fluid" src="/project1.90e66e9f.png">
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">User Authentication</h3>
+                <div>
+                  <p class="mb-4">
+                    This is a user authentication full stack program consist of
+                    registration, login, reset password, logout and logout all
+                    account. Frontend side I use vue.js and vuex while Backend
+                    side I use NodeJS, Express.js and MongoDB. After you login,
+                    you, as a admin, will see all registered member information
+                    in the website and also in the chrome console.
+                  </p>
+                </div>
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://ken-user-authentication.herokuapp.com/">
+                  See Live
+                </a>
+                <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="https://github.com/chankakit1996/user-authentication">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
+                    <img alt="Project Image" class="img-fluid" src="/project2.4fc8de00.png">
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">User Authentication</h3>
+                <div>
+                  <p class="mb-4">
+                    This is a project of revamp from mini javascript projects to
+                    vue. It's a SPA that you will see different mini projects
+                    like speak and guess game, infinite scroll and typing game.
+                  </p>
+                </div>
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://chankakit1996.github.io/revamp_js_prjs_to_vue/">
+                  See Live
+                </a>
+                <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="https://github.com/chankakit1996/revamp_js_prjs_to_vue">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
+                    <img alt="Project Image" class="img-fluid" src="/project3.0330c04f.png">
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper load-hidden">
+          <p class="contact-wrapper__text">
+            Feel free to email me at chankakit1996@yahoo.com.hk
+          </p>
+          <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="mailto:chankakit1996@yahoo.com.hk">Email to Action</a>
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a rel="noreferrer" href="https://www.linkedin.com/in/ka-kit-chan/" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://github.com/chankakit1996" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="mailto:chankakit1996@yahoo.com.hk" target="_blank">
+            <i class="fa fa-envelope fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr>
+
+        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
+        <!-- I updated the year in index.js -->
+        <p class="footer__text">
+          © <span id="footer-credit-year"></span> - Template developed by
+          <a rel="noreferrer" href="https://github.com/cobidev" target="_blank">Jacobo Martínez</a>
+        </p>
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+
+    <script defer="" src="/index.379dd93c.js"></script>
+  </body>
+</html>
